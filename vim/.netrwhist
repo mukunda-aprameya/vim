@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/ahmukunda/.vim/c-support/templates'
+let g:netrw_dirhist_2='/home/ahmukunda/.vim/c-support'
+let g:netrw_dirhist_3='/home/ahmukunda/.vim/c-support/codesnippets'
+let g:netrw_dirhist_4='/home/ahmukunda/workdir'
+let g:netrw_dirhist_5='/'
