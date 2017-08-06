@@ -2,6 +2,8 @@ filetype plugin on
 syntax on
 set hlsearch
 set number
+set backup
+set backupext=.bak
 set nocompatible
 set modelines=0
 set tabstop=4
