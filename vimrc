@@ -20,13 +20,10 @@ set cursorline
 set hidden
 set wildmenu
 set wildmode=list:longest
-set visualbell
 set ttyfast
-set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set number
-" set relativenumber
 set noundofile
 nnoremap / /\v
 vnoremap / /\v
@@ -44,12 +41,24 @@ set linebreak
 set nolist
 set formatoptions=qrn1
 set spell spelllang=en_us
-set colorcolumn=80
+colorscheme torte
 
-" Aesthetics
+inoremap ( ()<Esc>i
+inoremap < <><Esc>i
+inoremap { {}<Esc>i
 
-colorscheme solarized
-set background=dark
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
 
 " " Mappings and shortcuts
 "
@@ -57,23 +66,8 @@ set background=dark
 "
 " inoremap jk <ESC>
 " let mapleader = ","
-"
-" " Arrows are unvimlike 
-"
-" nnoremap <up> <nop>
-" nnoremap <down> <nop>
-" nnoremap <left> <nop>
-" nnoremap <right> <nop>
-" inoremap <up> <nop>
-" inoremap <down> <nop>
-" inoremap <left> <nop>
-" inoremap <right> <nop>
-"
-" " Miscellaneous 
-"
-" inoremap <F1> <ESC>
-" nnoremap <F1> <ESC>
-" vnoremap <F1> <ESC>
+
+
 " au FocusLost * :wa
 " vnoremap . :norm.<CR>
 "
