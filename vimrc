@@ -40,7 +40,7 @@ set wrap
 set linebreak
 set nolist
 set formatoptions=qrn1
-set spell spelllang=en_us
+"set spell spelllang=en_us
 colorscheme torte
 
 inoremap ( ()<Esc>i
