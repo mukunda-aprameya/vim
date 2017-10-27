@@ -14,6 +14,7 @@ set expandtab
 set encoding=utf-8
 set scrolloff=3
 set autoindent
+set ruler
 set showmode
 set showcmd
 set cursorline
