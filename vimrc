@@ -25,7 +25,11 @@ set ttyfast
 set backspace=indent,eol,start
 set laststatus=2
 set number
-set noundofile
+if has('persistent_undo')
+  set undofile
+endif
+set undodir=$HOME/.vim/undo_history
+set undolevels=1500
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
